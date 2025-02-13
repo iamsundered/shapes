@@ -39,7 +39,7 @@ public class Arv {
             System.out.println(prompt);
 
             input = sc.nextLine().trim();
-            if (!input.isEmpty() && input.matches("[a-öA-Ö ]+")) { // Only allows alphabetic letters and " ".
+            if (!input.isEmpty() && input.matches("[a-zA-Z ]+")) { // Only allows alphabetic letters and " ".
                 break;
             } else {
                 System.out.println("Invalid input, please enter a color.");
