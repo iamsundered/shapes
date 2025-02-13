@@ -1,7 +1,5 @@
 package polaris;
 
-import java.util.Scanner;
-
 public class Square extends Shape {
     private double side;
 
@@ -10,7 +8,6 @@ public class Square extends Shape {
         super(color);
         this.side = side;
     }
-
 
 
     @Override
